@@ -1,0 +1,1 @@
+import{T as a}from"./refs-46824d00.js";import{l}from"./api-796b699d.js";const o=document.querySelector(".login-form");o.addEventListener("submit",i);function i(e){e.preventDefault();const{email:t,password:r}=e.currentTarget.elements,n={email:t.value,password:r.value};l(n).then(s=>{localStorage.setItem(a,s.token)}),o.reset()}
